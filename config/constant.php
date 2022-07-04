@@ -9,12 +9,12 @@ return [
                 [
                     'title' => 'Users',
                     'links' => [
-                        '0' => [
+                        'view' => [
                             'route' => 'viewUsers' ,
                             'icon'  => 'fa fa-users',
                             'title' => 'View'
                         ],
-                        '1' => [
+                        'add' => [
                             'route' => 'createUser' ,
                             'icon'  => 'fa fa-plus' ,
                             'title' => 'Add' ,
@@ -24,12 +24,12 @@ return [
                 [
                     'title' => 'Roles',
                     'links' => [
-                        0 => [
+                        'view' => [
                             'route' => 'viewRoles' ,
                             'icon'  => 'fa fa-users',
                             'title' => 'Add' ,
                         ],
-                        '1' => [
+                        'add' => [
                             'route' => 'createRole' ,
                             'icon'  => 'fa fa-plus',
                             'title' => 'Add' ,
@@ -45,12 +45,12 @@ return [
                 [
                     'title' => 'Countries',
                     'links' => [
-                        0 => [
+                        'view' => [
                             'route' => 'viewCountries' ,
                             'icon'  => 'fa fa-users',
                             'title' => 'Add' ,
                         ],
-                        1 => [
+                        'add' => [
                             'route' => 'createCountry' ,
                             'icon'  => 'fa fa-plus',
                             'title' => 'Add' ,
@@ -60,13 +60,15 @@ return [
                 [
                     'title' => 'States',
                     'links' => [
-                        0 => [
+                        'view' => [
                             'route' => 'viewStates' ,
-                            'icon'  => 'fa fa-users'
+                            'icon'  => 'fa fa-users',
+                            'title' => 'Add' ,
                         ],
-                        1 => [
+                        'add' => [
                             'route' => 'createState' ,
-                            'icon'  => 'fa fa-plus'
+                            'icon'  => 'fa fa-plus',
+                            'title' => 'Add' ,
                         ]
                     ],
                 ],

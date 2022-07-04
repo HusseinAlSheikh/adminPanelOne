@@ -8,7 +8,7 @@
             <x-list-item-sub
                     :menuTitle="$subMenu['title']"
                     :subLink="$subMenu['links']"
-            ></x-list-item-sub>
+            />
         @endif
     @endforeach
 
