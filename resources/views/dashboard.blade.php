@@ -1,4 +1,4 @@
-<x-admin-layout >
+<x-admin.admin-layout >
     <div class="grid gap-6 grid-cols-1 md:grid-cols-3 mb-6">
         <div class="card">
             <div class="card-content">
@@ -383,4 +383,4 @@
             </div>
         </div>
     </div>
-</x-admin-layout>
+</x-admin.-admin-layout>

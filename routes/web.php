@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('dashboard');
+Route::middleware('auth')->group(function()
+{
+    Route::get('dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+    Route::get('profile', [\App\Models\User::class, 'create'])->name('user.profile');
 });
+
+require __DIR__.'/auth.php';
