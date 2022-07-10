@@ -13,11 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/test',function (){
+    return view('testComponent');
+});
+
 Route::middleware('auth')->group(function()
 {
     Route::get('dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+    Route::get('dashboard2', function () {
+        return view('dashboard2');
+    })->name('dashboard2');
     Route::get('profile', [\App\Models\User::class, 'create'])->name('user.profile');
 });
 

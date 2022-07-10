@@ -55,9 +55,6 @@
     </x-auth-card>
 </x-guest-layout>
 
-
-
-
 <!doctype html>
 <html lang="en">
 <head>
