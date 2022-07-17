@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <x-admin.head>
+
     </x-admin.head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -48,7 +49,8 @@
 
 
 <x-admin.footer-script>
-
+    <!-- custom-file-input -->
+    <script src="{{asset('plugins/bs-custom-file-input/bs-custom-file-input.min.js')}}"></script>
 </x-admin.footer-script>
 
 </body>

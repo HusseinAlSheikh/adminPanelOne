@@ -25,17 +25,14 @@
     <div class="form-group">
         <label for="{{$param['id']}}" class="{{$param['label_size']}}">{{$param['label']}}</label>
         <input
-                name="{{$param['name']}}"
+                type="password"
+                class="form-control {{ $param['errors'] ? 'is-invalid' : ''  }}  {{$param['input_size']}}  {{$param['class']}}"
                 id="{{$param['id']}}"
-                type="{{$param['type']}}"
-                class="input form-control {{ $param['errors'] ? 'is-invalid' : ''  }}  {{$param['input_size']}}  {{$param['class']}}"
+                name="{{$param['name']}}"
                 placeholder="{{$param['placeholder']}}"
-                value="{{$param['value']}}"
-                {{$param['attr']}}
         >
 
-
-        @if($param['icon'])
+    @if($param['icon'])
             <span class="icon ">
                 <i class="{{$param['icon']}}"></i>
             </span>

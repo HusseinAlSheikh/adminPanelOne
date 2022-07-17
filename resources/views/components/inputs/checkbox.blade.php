@@ -3,7 +3,7 @@
         $param = array_merge([
             'id'          => null,
             'name'        => null,
-            'type'        => 'text',
+            'checked'     => false,
             'label'       => null,
             'placeholder' => null,
             'help'        => null,
@@ -22,17 +22,21 @@
         ], $options);
     @endphp
 
+
     <div class="form-group">
-        <label for="{{$param['id']}}" class="{{$param['label_size']}}">{{$param['label']}}</label>
-        <input
-                name="{{$param['name']}}"
-                id="{{$param['id']}}"
-                type="{{$param['type']}}"
-                class="input form-control {{ $param['errors'] ? 'is-invalid' : ''  }}  {{$param['input_size']}}  {{$param['class']}}"
-                placeholder="{{$param['placeholder']}}"
-                value="{{$param['value']}}"
-                {{$param['attr']}}
-        >
+
+
+
+            <div class="form-check">
+                <input
+                        name="{{$param['name']}}"
+                        class="form-check-input "
+                        type="checkbox"
+                        {{$param['checked']?'checked':''}}
+                >
+                <label class="form-check-label">{{$param['label']}}</label>
+            </div>
+
 
 
         @if($param['icon'])
@@ -40,12 +44,9 @@
                 <i class="{{$param['icon']}}"></i>
             </span>
         @endif
-
-        @if($param['errors'] && $param['showErrors'])
+        @if($param['showErrors'])
             <x-inputs.input-error :inputName="$param['name']"/>
         @endif
 
     </div>
-
-
 @endif

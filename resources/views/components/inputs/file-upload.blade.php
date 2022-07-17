@@ -21,18 +21,23 @@
             'icon'        => '',
         ], $options);
     @endphp
-
     <div class="form-group">
         <label for="{{$param['id']}}" class="{{$param['label_size']}}">{{$param['label']}}</label>
-        <input
-                name="{{$param['name']}}"
-                id="{{$param['id']}}"
-                type="{{$param['type']}}"
-                class="input form-control {{ $param['errors'] ? 'is-invalid' : ''  }}  {{$param['input_size']}}  {{$param['class']}}"
-                placeholder="{{$param['placeholder']}}"
-                value="{{$param['value']}}"
-                {{$param['attr']}}
-        >
+        <div class="form-group">
+
+            <div class="custom-file">
+                <input
+                       type="file"
+                       class="custom-file-input  {{ $param['errors'] ? 'is-invalid' : ''  }}  {{$param['input_size']}} {{$param['class']}} "
+                       id="{{$param['id']}}"
+                >
+                <label
+                        class="custom-file-label"
+                        for="{{$param['id']}}">
+                    {{$param['label']}}
+                </label>
+            </div>
+        </div>
 
 
         @if($param['icon'])

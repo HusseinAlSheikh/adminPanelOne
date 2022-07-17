@@ -7,6 +7,7 @@
             'label'       => null,
             'placeholder' => null,
             'help'        => null,
+            'rows'        => null,
             'class'       => null,
             'container_attributes' => null,
             'attr'        => null,
@@ -24,16 +25,14 @@
 
     <div class="form-group">
         <label for="{{$param['id']}}" class="{{$param['label_size']}}">{{$param['label']}}</label>
-        <input
+        <textarea
                 name="{{$param['name']}}"
                 id="{{$param['id']}}"
-                type="{{$param['type']}}"
-                class="input form-control {{ $param['errors'] ? 'is-invalid' : ''  }}  {{$param['input_size']}}  {{$param['class']}}"
+                rows="{{$param['rows']}}"
+                class="input form-control {{ $param['errors'] ? 'is-invalid' : ''  }}  {{$param['input_size']}} {{$param['class']}}"
                 placeholder="{{$param['placeholder']}}"
-                value="{{$param['value']}}"
                 {{$param['attr']}}
-        >
-
+        >{{$param['value']}}</textarea>
 
         @if($param['icon'])
             <span class="icon ">
