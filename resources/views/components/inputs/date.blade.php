@@ -1,6 +1,6 @@
 @if(isset($options))
     @php
-        $options['type'] = 'password';
+        $options['type'] = 'date';
     @endphp
     {{-----------------------------------}}
     @include('components.inputs.text', ['options' => $options])

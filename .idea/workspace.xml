@@ -2,49 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79a03fdc-68fc-427f-97cd-0327dbdc7b63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/adminlte.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/adminlte.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/checkbox.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/file-upload.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/input-error.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/password.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/radio-button.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/select.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/select2.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/textarea.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/toggle-button.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/button.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/color.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/date.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/datetime-local.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/file.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/hidden.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/month.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/number.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/range.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/time.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/url.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/inputs/week.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/old/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/old/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/old/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/old/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/old/css/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/old/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/old/images/bg_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/old/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/old/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/old/js/chart.sample.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/old/js/chart.sample.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/old/js/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/old/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/old/js/main.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/old/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/old/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/admin/footer-script.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/admin/footer-script.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/admin/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/admin/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/admin/main-layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/admin/main-layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/inputs/password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/inputs/password.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/inputs/radio-button.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/inputs/radio.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/inputs/text.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/inputs/text.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/old/admin/admin-layout.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/old/admin/footer.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/old/admin/head.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/old/admin/list-item-sub.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/old/admin/list-item.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/old/admin/menu-list.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/old/admin/navbar.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/old/admin/page-title.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/old/admin/sidebar.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/old/admin/title-bar.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/testComponent.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/testComponent.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,65 +36,91 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/testComponent.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="113" selection-start-line="113" selection-end-line="113" selection-end-column="14" />
+            <state relative-caret-position="155">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/components/input.blade.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/components/label.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/week.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="54">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/time.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="54">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/guest.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/url.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="54">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/navigation.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/select.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2484">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="301">
+              <caret line="45" column="12" selection-end-line="49" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/auth/forgot-password.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/radio.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="344">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/components/button.blade.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/range.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/password.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/number.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/month.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -131,6 +132,7 @@
       <find>input</find>
       <find>checkbox</find>
       <find>x-button</find>
+      <find>text</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,18 +170,31 @@
         <option value="$PROJECT_DIR$/resources/views/dashboard2.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/components/inputs/input-error.php" />
         <option value="$PROJECT_DIR$/resources/views/components/inputs/input-error.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/components/inputs/text.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/components/inputs/textarea.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/components/inputs/select.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/components/inputs/password.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/components/inputs/checkbox.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/components/inputs/radio-button.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/components/inputs/toggle-button.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/components/admin/main-layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/components/inputs/file-upload.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/components/inputs/select2.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/components/admin/head.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/components/admin/footer-script.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/inputs/date.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/inputs/datetime-local.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/inputs/email.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/inputs/file.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/inputs/text.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/inputs/hidden.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/inputs/image.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/inputs/month.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/inputs/number.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/inputs/password.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/inputs/radio-button.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/inputs/range.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/inputs/submit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/inputs/time.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/inputs/url.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/inputs/week.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/testComponent.blade.php" />
       </list>
     </option>
@@ -302,7 +317,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -314,6 +330,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,13 +354,6 @@
               <item name="adminPanelOne" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adminPanelOne" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adminPanelOne" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -352,15 +362,7 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adminPanelOne" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adminPanelOne" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
+              <item name="inputs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="adminPanelOne" type="b2602c69:ProjectViewProjectNode" />
@@ -373,7 +375,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,22 +383,23 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/AdminLTE-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\adminPanelOne\resources\views\components\inputs" />
-      <recent name="C:\laragon\www\adminPanelOne\public\css" />
-      <recent name="C:\laragon\www\adminPanelOne++\resources\views\components\inputs" />
-      <recent name="C:\laragon\www\adminPanelOne\resources\views" />
-      <recent name="C:\laragon\www\adminPanelOne\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\laragon\www\adminPanelOne\resources\views\components\admin" />
       <recent name="C:\laragon\www\adminPanelOne\resources\views\components\old" />
       <recent name="C:\laragon\www\adminPanelOne\public\old" />
       <recent name="C:\laragon\www\adminPanelOne\public\css\old" />
       <recent name="C:\laragon\www\adminPanelOne\resources\views\components\inputs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\adminPanelOne\resources\views\components\inputs" />
+      <recent name="C:\laragon\www\adminPanelOne\resources\views\components\inputs" />
+      <recent name="C:\laragon\www\adminPanelOne\public\css" />
+      <recent name="C:\laragon\www\adminPanelOne++\resources\views\components\inputs" />
+      <recent name="C:\laragon\www\adminPanelOne\resources\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -441,16 +443,18 @@
       <workItem from="1656871394418" duration="22000" />
       <workItem from="1656872659356" duration="2554000" />
       <workItem from="1658064280294" duration="345000" />
+      <workItem from="1658219443876" duration="6176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32737000" />
+    <option name="totallyTimeSpent" value="38913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4054463" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27836612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -462,10 +466,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.61374795" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.4140753" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.08346972" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.36824876" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -516,88 +520,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <element signature="e#7#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/old/admin/list-item-sub.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/components/old/admin/list-item.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/components/old/admin/sidebar.blade.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/pages/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4806">
-          <caret line="183" column="5" selection-start-line="183" selection-start-column="5" selection-end-line="183" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/en/inputs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/responsive-nav-link.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/old/inputs/text.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/old/inputs/select2.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
-          <folding>
-            <element signature="e#25#1572#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/partials/alert.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/admin.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/components/admin/header.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -676,23 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/text.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/select.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="45" column="12" selection-end-line="49" selection-end-column="6" />
-          <folding>
-            <element signature="e#27#737#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/toggle-button.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
@@ -707,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/radio-button.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/checkbox.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1323">
@@ -725,13 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/password.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="126" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="126" />
         </state>
       </provider>
     </entry>
@@ -786,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/testComponent.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="113" selection-start-line="113" selection-end-line="113" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/components/input.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -833,6 +717,145 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/components/button.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/button.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/color.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/datetime-local.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/email.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/file.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/date.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/image.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/hidden.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="34" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/month.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/number.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/password.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/text.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-453">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding>
+            <element signature="e#27#742#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/radio.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/range.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/select.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="45" column="12" selection-end-line="49" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/submit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/time.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/url.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/inputs/week.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/testComponent.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

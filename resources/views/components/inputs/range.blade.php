@@ -1,6 +1,6 @@
 @if(isset($options))
     @php
-        $options['type'] = 'password';
+        $options['type'] = 'range';
     @endphp
     {{-----------------------------------}}
     @include('components.inputs.text', ['options' => $options])
