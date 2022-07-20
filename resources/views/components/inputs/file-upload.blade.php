@@ -21,10 +21,15 @@
             'icon'        => '',
         ], $options);
     @endphp
+
+
+    <div class="file-upload-wrapper">
+        <input type="file" id="input-file-now" class="file-upload" />
+    </div>
+    
     <div class="form-group">
         <label for="{{$param['id']}}" class="{{$param['label_size']}}">{{$param['label']}}</label>
         <div class="form-group">
-
             <div class="custom-file">
                 <input
                        type="file"
@@ -54,3 +59,5 @@
 
 
 @endif
+
+

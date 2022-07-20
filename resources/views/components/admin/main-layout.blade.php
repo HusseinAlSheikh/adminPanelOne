@@ -21,12 +21,12 @@
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
 
-        <x-admin.content-header>
+        {{--<x-admin.content-header>--}}
 
-        </x-admin.content-header>
+        {{--</x-admin.content-header>--}}
 
         <!-- Main content -->
-        <section class="content">
+        <section class="content  section main-section ">
             <div class="container-fluid">
                 {{$slot}}
             </div><!-- /.container-fluid -->
@@ -51,6 +51,12 @@
 <x-admin.footer-script>
     <!-- custom-file-input -->
     <script src="{{asset('plugins/bs-custom-file-input/bs-custom-file-input.min.js')}}"></script>
+
+    <script>
+        $(function () {
+            $('.file-upload').file_upload();
+        })
+    </script>
 </x-admin.footer-script>
 
 </body>

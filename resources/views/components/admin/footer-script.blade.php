@@ -11,6 +11,9 @@
 <!-- Bootstrap 4 -->
 <script src="{{asset('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
+<!-- mdb -->
+<script src="{{asset('plugins/mdb/mdb.min.js')}}"></script>
+
 <!-- ChartJS -->
 <script src="{{asset('plugins/chart.js/Chart.min.js')}}"></script>
 <!-- Sparkline -->
