@@ -34,7 +34,7 @@
                         name="{{$param['name']}}"
                         id="{{$param['id']}}"
                         type="{{$param['type']}}"
-                        class="form-control
+                        class="
                         {{ $param['errors'] ? 'is-invalid' : ''  }}
                         {{ ($param['type']=='file') ? 'border-0' : ''  }}
                         {{$param['input_size']}}  {{$param['class']}}"
@@ -54,7 +54,6 @@
                     id="{{$param['id']}}"
                     type="{{$param['type']}}"
                     class="
-                    form-control
                     {{ $param['errors'] ? 'is-invalid' : ''  }}
                     {{ ($param['type']=='file') ? 'border-0' : ''  }}
                     {{$param['input_size']}}  {{$param['class']}}"

@@ -9,36 +9,51 @@
             <div class="contents order-2 order-md-1">
                 <div class="container">
                     <div class="row align-items-center justify-content-center">
-                        <div class="col-md-7">
+                        <div class="col-md-7  ">
                             <h3>Login to <strong>{{ config('app.name', 'Laravel') }}</strong></h3>
-                            <form method="POST" action="{{ route('login') }}">
+                            <form  method="POST" action="{{ route('login') }}">
                                 @csrf
                                 <!-- Email Address -->
                                 <div>
-                                    <x-label for="email" :value="__('Email')" />
-
-                                    <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
+                                    @include('components.inputs.email', ['options' => [
+                                               'id'    => 'email' ,
+                                               'name'  => 'email' ,
+                                               'input_size' => 'col-lg-12'  ,
+                                               'class' => 'rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block mt-1 w-full',
+                                               'attr'  => 'required autofocus' ,
+                                               'label' =>__('Email') ,
+                                               'value' => old('email')
+                                           ]])
                                 </div>
 
                                 <!-- Password -->
                                 <div class="mt-4">
-                                    <x-label for="password" :value="__('Password')" />
-
-                                    <x-input id="password" class="block mt-1 w-full"
-                                                    type="password"
-                                                    name="password"
-                                                    required autocomplete="current-password" />
+                                    @include('components.inputs.password', ['options' => [
+                                            'id'    => 'password' ,
+                                            'name'  => 'password' ,
+                                            'input_size' => 'col-lg-12'  ,
+                                            'class' => 'rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block mt-1 w-full',
+                                            'attr'  => 'required autocomplete="current-password"' ,
+                                            'label' =>__('Password') ,
+                                        ]])
                                 </div>
+
 
                                 <div class="d-flex mb-5 align-items-center">
                                     <label class="control control--checkbox mb-0"><span class="caption">Remember me</span>
                                         <input id="remember_me" type="checkbox" checked="checked"/>
                                         <div class="control__indicator"></div>
                                     </label>
-                                    <span class="ml-auto"><a  href="{{ route('password.request') }}" class="forgot-pass">Forgot Password</a></span>
+                                    {{--<span class="ml-auto"><a  href="{{ route('password.request') }}" class="forgot-pass">Forgot Password</a></span>--}}
                                 </div>
 
-                                <input type="submit" value="{{ __('Log in') }}" class="btn btn-block btn-primary">
+                                    @include('components.inputs.submit', ['options' => [
+                                                'name' => '' ,
+                                                'input_size' => 'col-lg-12'  ,
+                                                'class' => 'btn btn-block btn-primary',
+                                                'label' => '' ,
+                                                'value' => __('Log in') ,
+                                            ]])
 
                             </form>
                         </div>

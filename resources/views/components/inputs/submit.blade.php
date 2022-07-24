@@ -1,6 +1,6 @@
 @if(isset($options))
     @php
-        $options['type'] = 'color';
+        $options['type'] = 'submit';
     @endphp
     {{-----------------------------------}}
     @include('components.inputs.text', ['options' => $options])

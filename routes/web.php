@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/test',function (){
     return view('testComponent');
-});
+})->name('testComponent');
 
 Route::middleware('auth')->group(function()
 {
